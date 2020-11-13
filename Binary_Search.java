@@ -15,7 +15,7 @@ class Binary_Search
 			  System.out.println("key element found at " +mid);
 			  break;
 			}
-			else if(a[mid]>key)
+			else if(a[mid]<key)
 			{
 				first=mid+1;
 			}
